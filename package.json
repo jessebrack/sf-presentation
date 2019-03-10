@@ -1,11 +1,15 @@
 {
-  "name": "sf-presentation",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:jessebrack/sf-presentation.git",
-  "author": "Jesse Brack <jtbrack@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "mdx-deck": "^1.10.0"
-  }
+    "name": "sf-presentation",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:jessebrack/sf-presentation.git",
+    "author": "Jesse Brack <jtbrack@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "mdx-deck deck.mdx",
+        "build": "mdx-deck build deck.mdx"
+    },
+    "devDependencies": {
+        "mdx-deck": "^1.10.0"
+    }
 }
