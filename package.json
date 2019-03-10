@@ -10,6 +10,8 @@
         "build": "mdx-deck build deck.mdx"
     },
     "devDependencies": {
-        "mdx-deck": "^1.10.0"
+        "@puppies4life/lyca": "^1.0.4",
+        "mdx-deck": "^1.10.0",
+        "styled-components": "^4.1.3"
     }
 }
