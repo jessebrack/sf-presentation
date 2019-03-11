@@ -1,9 +1,9 @@
 import { Split } from 'mdx-deck/layouts';
-import { Image } from 'mdx-deck';
-import { Box, Flex } from '@puppies4life/lyca';
+import { Image, Appear } from 'mdx-deck';
+import { Box, Button, Flex } from '@puppies4life/lyca';
 import Background from './components/Background';
 
-export { default as theme } from './theme';
+export { swiss as theme } from 'mdx-deck/themes';
 
 # 👋 Hello!
 
@@ -52,11 +52,76 @@ These are only visible in presenter mode
 
 ---
 
-<a href="videos/yosemite.mp4" target="_blank"><img src="images/yosemite.gif" alt="Image of a rock climbing prototype" /></a>
+# Design
 
 ---
 
-<a href="videos/magazine.mp4" target="_blank"><img src="images/magazine.gif" alt="image of a mobile magazine prototype" /></a>
+<a href="videos/yosemite.mp4" target="_blank"><img src="images/yosemite.gif" alt="Rock climbing prototype" /></a>
+
+---
+
+<a href="videos/magazine.mp4" target="_blank"><img src="images/magazine.gif" alt="Mobile magazine prototype" /></a>
+
+---
+
+<a href="images/calpass-source.png" target="_blank"><img src="images/calpass.png" alt="Calpass-plus mockup" /></a>
+
+---
+
+<img src="images/ow.png" alt="OrderWell mockup" />
+
+---
+
+# Development
+
+---
+
+<a href="images/gs1-source.jpg" target="_blank"><img src="images/gs1.png" alt="Gamespot mockup" /></a>
+
+---
+
+<a href="images/gs2-source.jpg" target="_blank"><img src="images/gs2.png" alt="Gamespot mockup" /></a>
+
+---
+
+```CSS
+.media { ... }
+.media-figure { ... }
+.media-body { ... }
+.media-title { ... }
+```
+
+---
+
+```HTML
+<article class="media">
+	<figure class="media-figure">...</div>
+	<div class="media-body">
+		<div class="media-title">...</div>
+		...
+	</div>
+</article>
+```
+
+---
+
+# 🐕 Lyca
+
+---
+
+<a href="https://elated-cori-1eb692.netlify.com/" target="_blank"><img src="images/lyca.png" alt="Lyca website" /></a>
+
+```notes
+- Clients were React based
+- CSS was a mess
+- Design needs required something custom
+- Friendly to developers who didn't use CSS
+- Move fast
+- Need constraints to future-prof
+- Small, light-weight, flexible cause lots of clients
+```
+
+---
 
 ---
 
