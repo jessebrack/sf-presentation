@@ -6,8 +6,12 @@
     "author": "Jesse Brack <jtbrack@gmail.com>",
     "license": "MIT",
     "scripts": {
+        "prepare": "npm run clean && npm run images && npm run videos && npm run build",
         "start": "mdx-deck deck.mdx",
-        "build": "mdx-deck build deck.mdx"
+        "build": "mdx-deck build deck.mdx",
+        "clean": "rm -rf dist",
+        "images": "mkdir -p dist/images && cp -R images dist/",
+        "videos": "mkdir -p dist/videos && cp -R videos dist/"
     },
     "devDependencies": {
         "@puppies4life/lyca": "^1.0.4",
